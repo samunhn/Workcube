@@ -4,6 +4,9 @@
 PRIZM prizm;            //declare object(reference to prism)
 
 void setup(){
+  prizm.setMotorPower(1,100);   //100% speed
+  delay(2000);
+  prizm.setMotorPower(1,125);   //125 means break
 }
 void loop(){
 }
