@@ -3,7 +3,7 @@ PRIZM prizm;            //declare object(reference to prism)
 
 void setup(){
   prizm.PrizmBegin();
-  Serial.print(9600);
+  Serial.begin(9600);
 }
 void loop(){
   int distance = prizm.readSonicSensorCM(2);
